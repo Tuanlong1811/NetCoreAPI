@@ -1,0 +1,14 @@
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\bin\Debug\net7.0\Newapp.exe
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\bin\Debug\net7.0\Newapp.deps.json
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\bin\Debug\net7.0\Newapp.runtimeconfig.json
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\bin\Debug\net7.0\Newapp.dll
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\bin\Debug\net7.0\Newapp.pdb
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\Newapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\Newapp.AssemblyInfoInputs.cache
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\Newapp.AssemblyInfo.cs
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\Newapp.csproj.CoreCompileInputs.cache
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\Newapp.dll
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\refint\Newapp.dll
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\Newapp.pdb
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\Newapp.genruntimeconfig.cache
+C:\Users\TOhka\Documents\Net_Core_API\Newapp\obj\Debug\net7.0\ref\Newapp.dll
