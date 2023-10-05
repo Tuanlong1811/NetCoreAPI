@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\TOhka\\Documents\\Net_Core_API\\2809\\2809.csproj": {}
+    "C:\\Users\\TOhka\\Documents\\Net_Core_API\\th2809\\th2809.csproj": {}
   },
   "projects": {
-    "C:\\Users\\TOhka\\Documents\\Net_Core_API\\2809\\2809.csproj": {
+    "C:\\Users\\TOhka\\Documents\\Net_Core_API\\th2809\\th2809.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\2809\\2809.csproj",
-        "projectName": "2809",
-        "projectPath": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\2809\\2809.csproj",
+        "projectUniqueName": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\th2809\\th2809.csproj",
+        "projectName": "th2809",
+        "projectPath": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\th2809\\th2809.csproj",
         "packagesPath": "C:\\Users\\TOhka\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\2809\\obj\\",
+        "outputPath": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\th2809\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\TOhka\\AppData\\Roaming\\NuGet\\NuGet.Config"
