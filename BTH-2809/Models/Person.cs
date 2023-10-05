@@ -1,7 +1,7 @@
 namespace NewApp.Models
 {
     public class Person
-    // nguyễn sỹ tiến - 2021050637
+    // nguyễn tuấn long-1721050348
     {
         //thuoc tinh
        public string PersonID { get; set; }

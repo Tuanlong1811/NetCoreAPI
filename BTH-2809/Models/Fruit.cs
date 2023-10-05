@@ -6,7 +6,7 @@ namespace NewApp.Models
         public int GiaSanPham { get; set; }
         public int KhoiLuong { get; set; }
         public void NhapThongTin()
-        //nguyễn sỹ tiến - 2021050637
+        //nguyễn tuấn long - 1721050348
         {
             
            System.Console.Write("Ten Loai Qua = ");
