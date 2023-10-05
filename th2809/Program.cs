@@ -1,2 +1,36 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿﻿using NewApp.Models;
+
+Person ps = new Person();
+ps.NhapThongTin();
+ps.HienThi();
+
+Employee emp = new Employee();
+emp.NhapThongTin();
+emp.HienThi();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
