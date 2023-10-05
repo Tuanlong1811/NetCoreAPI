@@ -8,7 +8,7 @@ namespace NewApp.Models
         public string PhoneNumber {get; set;}
 
         
-        //nguyễn sỹ tiến - 2021050637
+        //nguyễn tuấn long - 1721050348
         
         public void NhapThongTin()
         {
