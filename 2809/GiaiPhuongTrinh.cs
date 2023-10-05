@@ -8,7 +8,7 @@ namespace NewApp.Models
        public int Tuoi { get; set; }
        public double Luong { get; set; }
        
-// nguyễn tuan long - 1721050348
+// nguyễn sỹ tiến - 2021050637
        public void NhapThongTin()
        {
         System.Console.Write("Ma Nhan Vien = ");
