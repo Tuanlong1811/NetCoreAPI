@@ -3,7 +3,7 @@ using MvcMovie.Data ;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ApplicationDbcontext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new
+options.UseSqlite(builder.Configuration.GetConnectionString("DefaultConnection") ?? throw new
 InvalidOperationException("Connection string 'DefaultConnection' not found.")));
 
 // Add services to the container.
