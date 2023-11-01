@@ -1,0 +1,8 @@
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.csproj.AssemblyReference.cache
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.AssemblyInfoInputs.cache
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.AssemblyInfo.cs
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.csproj.CoreCompileInputs.cache
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.RazorAssemblyInfo.cache
+C:\Users\TOhka\Documents\Net_Core_API\btcsdl\obj\Debug\net7.0\btcsdl.RazorAssemblyInfo.cs
