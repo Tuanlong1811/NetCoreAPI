@@ -31,7 +31,7 @@ namespace btcsdl.Migrations
 
                     b.HasKey("PersonId");
 
-                    b.ToTable("Persons");
+                    b.ToTable("Person");
                 });
 #pragma warning restore 612, 618
         }

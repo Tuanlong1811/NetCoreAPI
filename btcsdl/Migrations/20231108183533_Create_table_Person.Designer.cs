@@ -10,7 +10,7 @@ using MvcMovie.Data;
 namespace btcsdl.Migrations
 {
     [DbContext(typeof(ApplicationDbcontext))]
-    [Migration("20231102110715_Create_table_Person")]
+    [Migration("20231108183533_Create_table_Person")]
     partial class Create_table_Person
     {
         /// <inheritdoc />
@@ -34,7 +34,7 @@ namespace btcsdl.Migrations
 
                     b.HasKey("PersonId");
 
-                    b.ToTable("Persons");
+                    b.ToTable("Person");
                 });
 #pragma warning restore 612, 618
         }
