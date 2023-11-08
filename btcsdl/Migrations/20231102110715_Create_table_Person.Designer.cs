@@ -10,7 +10,7 @@ using MvcMovie.Data;
 namespace btcsdl.Migrations
 {
     [DbContext(typeof(ApplicationDbcontext))]
-    [Migration("20231101200816_Create_table_Person")]
+    [Migration("20231102110715_Create_table_Person")]
     partial class Create_table_Person
     {
         /// <inheritdoc />
