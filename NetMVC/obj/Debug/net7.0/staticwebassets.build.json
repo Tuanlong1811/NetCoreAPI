@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Gu2h2isNng6SyisNnFCnB3tHkXJhbdzMDuwcxpGFtE=",
+  "Hash": "zWaQFRc55p9F5o16vVB+tljDavkxRDC0WfoXpd+aljk=",
   "Source": "NetMVC",
   "BasePath": "_content/NetMVC",
   "Mode": "Default",
@@ -72,6 +72,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\css\\site.css"
+    },
+    {
+      "Identity": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\NetMVC\\wwwroot\\css\\w3.css",
+      "SourceId": "NetMVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\NetMVC\\wwwroot\\",
+      "BasePath": "_content/NetMVC",
+      "RelativePath": "css/w3.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\w3.css"
     },
     {
       "Identity": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\NetMVC\\wwwroot\\favicon.ico",
