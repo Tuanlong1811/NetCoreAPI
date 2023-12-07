@@ -10,6 +10,8 @@ build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = NetMVC
 build_property.RootNamespace = NetMVC
 build_property.ProjectDir = C:\Users\TOhka\Documents\Net_Core_API\NetMVC\
+build_property.EnableComHosting = 
+build_property.EnableGeneratedComInterfaceComImportInterop = 
 build_property.RazorLangVersion = 7.0
 build_property.SupportLocalizedComponentNames = 
 build_property.GenerateRazorMetadataSourceChecksumAttributes = 
@@ -44,6 +46,26 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Khachhang/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXENyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Khachhang/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXERlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Khachhang/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXERldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Khachhang/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Khachhang/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcS2hhY2hoYW5nXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Person/Create.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
@@ -62,6 +84,26 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Person/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcUGVyc29uXEluZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Sanpham/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxDcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Sanpham/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxEZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Sanpham/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxEZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Sanpham/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxFZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Sanpham/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2FucGhhbVxJbmRleC5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/TOhka/Documents/Net_Core_API/NetMVC/Views/Shared/Error.cshtml]

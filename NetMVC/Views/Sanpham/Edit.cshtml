@@ -1,0 +1,44 @@
+@model NetMVC.Models.Sanpham
+
+@{
+    ViewData["Title"] = "Edit";
+}
+
+<h1>Edit</h1>
+
+<h4>Sanpham</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="SanphamID" />
+            <div class="form-group">
+                <label asp-for="Tensanpham" class="control-label"></label>
+                <input asp-for="Tensanpham" class="form-control" />
+                <span asp-validation-for="Tensanpham" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Thuonghieu" class="control-label"></label>
+                <input asp-for="Thuonghieu" class="form-control" />
+                <span asp-validation-for="Thuonghieu" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Soluong" class="control-label"></label>
+                <input asp-for="Soluong" class="form-control" />
+                <span asp-validation-for="Soluong" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Save" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

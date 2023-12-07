@@ -279,3 +279,4 @@ C:\Users\TOhka\Documents\Net_Core_API\NetMVC\obj\Debug\net7.0\refint\NetMVC.dll
 C:\Users\TOhka\Documents\Net_Core_API\NetMVC\obj\Debug\net7.0\NetMVC.pdb
 C:\Users\TOhka\Documents\Net_Core_API\NetMVC\obj\Debug\net7.0\NetMVC.genruntimeconfig.cache
 C:\Users\TOhka\Documents\Net_Core_API\NetMVC\obj\Debug\net7.0\ref\NetMVC.dll
+C:\Users\TOhka\Documents\Net_Core_API\NetMVC\obj\Debug\net7.0\NetMVC.sourcelink.json

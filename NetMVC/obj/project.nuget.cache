@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "v6QhnQWxlnZ3/LWWAb7YlFMlrsv6PwJ3SxJgWfqLQIMxL+PIs/r1bOJ+oF9wm6fDkAuQOduF4/Pwe/24wPu3Kw==",
+  "dgSpecHash": "YA4RQAzK/neo51CfA9iPjyyRJN2EcgsM9AQIMyI01WEyai5BuvxS0gU0+HZR1y/xAUvXUGOTkCblE7CgZ/CF3g==",
   "success": true,
   "projectFilePath": "C:\\Users\\TOhka\\Documents\\Net_Core_API\\NetMVC\\NetMVC.csproj",
   "expectedPackageFiles": [
@@ -232,7 +232,11 @@
     "C:\\Users\\TOhka\\.nuget\\packages\\system.threading.timer\\4.3.0\\system.threading.timer.4.3.0.nupkg.sha512",
     "C:\\Users\\TOhka\\.nuget\\packages\\system.windows.extensions\\6.0.0\\system.windows.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\TOhka\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
-    "C:\\Users\\TOhka\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512"
+    "C:\\Users\\TOhka\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
+    "C:\\Users\\TOhka\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.14\\microsoft.netcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\TOhka\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.14\\microsoft.windowsdesktop.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\TOhka\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.14\\microsoft.aspnetcore.app.ref.7.0.14.nupkg.sha512",
+    "C:\\Users\\TOhka\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.14\\microsoft.netcore.app.host.win-x64.7.0.14.nupkg.sha512"
   ],
   "logs": []
 }
