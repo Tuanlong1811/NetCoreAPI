@@ -8,6 +8,8 @@ using Microsoft.EntityFrameworkCore;
 using NetMVC.Data;
 using NetMVC.Models;
 using NetMVC.Models.Process;
+using OfficeOpenXml;
+using X.PagedList;
 
 namespace NetMVC.Controllers
 {
@@ -20,14 +22,34 @@ namespace NetMVC.Controllers
             _context = context;
         }
          private ExcelProcess _excelPro = new ExcelProcess();
+          public async Task<IActionResult> Index(int? page ,int? Pagesize)
+        {
+            ViewBag.Pagesize = new List<SelectListItem>()
+            {
+                new SelectListItem() {Value="3",Text="3"},
+                new SelectListItem() {Value="5",Text="5"},
+                new SelectListItem() {Value="10",Text="10"},
+                new SelectListItem() {Value="15",Text="15"},
+                new SelectListItem() {Value="20",Text="20"},
+                new SelectListItem() {Value="25",Text="25"},
+                new SelectListItem() {Value="50",Text="50"},
+
+            };
+            int pagesize = ( Pagesize ?? 3);
+            ViewBag.psize = pagesize;
+            var model = _context.Person.ToList().ToPagedList(page ?? 1, pagesize);
+            return View(model);
+        
+        }
+         
 
         // GET: Person
-        public async Task<IActionResult> Index()
-        {
-              return _context.Person != null ? 
-                          View(await _context.Person.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Person'  is null.");
-        }
+        // public async Task<IActionResult> Index()
+        // {
+        //       return _context.Person != null ? 
+        //                   View(await _context.Person.ToListAsync()) :
+        //                   Problem("Entity set 'ApplicationDbContext.Person'  is null.");
+        // }
 
         // GET: Person/Details/5
         public async Task<IActionResult> Details(string id)

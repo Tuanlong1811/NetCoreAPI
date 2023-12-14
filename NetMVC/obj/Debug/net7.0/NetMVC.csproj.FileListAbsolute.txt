@@ -285,3 +285,7 @@ C:\Users\TOhka\Documents\Net_Core_API\NetMVC\bin\Debug\net7.0\System.Security.Cr
 C:\Users\TOhka\Documents\Net_Core_API\NetMVC\bin\Debug\net7.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 C:\Users\TOhka\Documents\Net_Core_API\NetMVC\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 C:\Users\TOhka\Documents\Net_Core_API\NetMVC\bin\Debug\net7.0\runtimes\win\lib\net7.0\System.Security.Cryptography.Pkcs.dll
+C:\Users\TOhka\Documents\Net_Core_API\NetMVC\bin\Debug\net7.0\JetBrains.Annotations.dll
+C:\Users\TOhka\Documents\Net_Core_API\NetMVC\bin\Debug\net7.0\X.PagedList.dll
+C:\Users\TOhka\Documents\Net_Core_API\NetMVC\bin\Debug\net7.0\X.PagedList.Mvc.Core.dll
+C:\Users\TOhka\Documents\Net_Core_API\NetMVC\obj\Debug\net7.0\NetMVC.MvcApplicationPartsAssemblyInfo.cs

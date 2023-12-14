@@ -7,6 +7,7 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using NetMVC.Data;
 using NetMVC.Models;
+using X.PagedList;
 
 namespace NetMVC.Controllers
 {
@@ -18,14 +19,13 @@ namespace NetMVC.Controllers
         {
             _context = context;
         }
+        public async Task<IActionResult> Index(int? page)
+        {
+            var model = _context.Sanpham.ToList().ToPagedList(page ?? 1, 5);
+            return View(model);
+        }
 
         // GET: Sanpham
-        public async Task<IActionResult> Index()
-        {
-              return _context.Sanpham != null ? 
-                          View(await _context.Sanpham.ToListAsync()) :
-                          Problem("Entity set 'ApplicationDbContext.Sanpham'  is null.");
-        }
 
         // GET: Sanpham/Details/5
         public async Task<IActionResult> Details(string id)
