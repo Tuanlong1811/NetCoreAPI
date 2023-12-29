@@ -59,16 +59,16 @@ namespace BTL.Migrations
 
             modelBuilder.Entity("BTL.Models.KhoHang", b =>
                 {
-                    b.Property<int>("MaSP")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("MaSP")
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("GiaSP")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
-                    b.Property<int>("SoLuongSP")
-                        .HasColumnType("INTEGER");
+                    b.Property<string>("SoLuongSP")
+                        .IsRequired()
+                        .HasColumnType("TEXT");
 
                     b.Property<string>("TenSP")
                         .IsRequired()

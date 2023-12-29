@@ -7,6 +7,8 @@ using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using BTL.Data;
 using BTL.Models;
+using OfficeOpenXml;
+using X.PagedList;
 
 namespace BTL.Controllers
 {
@@ -20,9 +22,21 @@ namespace BTL.Controllers
         }
 
         // GET: SanPham
-        public async Task<IActionResult> Index()
+          public async Task<IActionResult> Index(int? page, int? PageSize)
         {
-            return View(await _context.SanPham.ToListAsync());
+            ViewBag.PageSize = new List<SelectListItem>()
+            {
+                new SelectListItem() { Value="3", Text="3"},
+                new SelectListItem() { Value="5", Text="5"},
+                new SelectListItem() { Value="10", Text="10"},
+                new SelectListItem() { Value="15", Text="15"},
+                new SelectListItem() { Value="25", Text="25"},
+                new SelectListItem() { Value="50", Text="50"},
+            };
+            int pagesize = (PageSize ?? 3);
+            ViewBag.psize = pagesize;
+            var model = _context.SanPham.ToList().ToPagedList(page ?? 1, pagesize);
+            return View(model);
         }
 
         // GET: SanPham/Details/5
@@ -154,4 +168,5 @@ namespace BTL.Controllers
             return _context.SanPham.Any(e => e.MaSP == id);
         }
     }
+    
 }

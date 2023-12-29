@@ -10,7 +10,6 @@ using BTL.Models;
 using BTL.Models.Process;
 using OfficeOpenXml;
 using X.PagedList;
-using NuGet.Protocol;
 
 namespace BTL.Controllers
 {
@@ -22,7 +21,9 @@ namespace BTL.Controllers
         {
             _context = context;
         }
-         private ExcelProcess _excelPro = new ExcelProcess();
+
+        // GET: KhoHang
+        private ExcelProcess _excelPro = new ExcelProcess();
 
         public async Task<IActionResult> Index(int? page, int? PageSize)
         {
@@ -41,10 +42,8 @@ namespace BTL.Controllers
             return View(model);
         }
 
-        // GET: KhoHang
-
         // GET: KhoHang/Details/5
-        public async Task<IActionResult> Details(int? id)
+        public async Task<IActionResult> Details(string id)
         {
             if (id == null)
             {
@@ -84,7 +83,7 @@ namespace BTL.Controllers
         }
 
         // GET: KhoHang/Edit/5
-        public async Task<IActionResult> Edit(int? id)
+        public async Task<IActionResult> Edit(string id)
         {
             if (id == null)
             {
@@ -104,7 +103,7 @@ namespace BTL.Controllers
         // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, [Bind("MaSP,TenSP,GiaSP,SoLuongSP")] KhoHang khoHang)
+        public async Task<IActionResult> Edit(string id, [Bind("MaSP,TenSP,GiaSP,SoLuongSP")] KhoHang khoHang)
         {
             if (id != khoHang.MaSP)
             {
@@ -135,7 +134,7 @@ namespace BTL.Controllers
         }
 
         // GET: KhoHang/Delete/5
-        public async Task<IActionResult> Delete(int? id)
+        public async Task<IActionResult> Delete(string id)
         {
             if (id == null)
             {
@@ -155,7 +154,7 @@ namespace BTL.Controllers
         // POST: KhoHang/Delete/5
         [HttpPost, ActionName("Delete")]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
+        public async Task<IActionResult> DeleteConfirmed(string id)
         {
             var khoHang = await _context.KhoHang.FindAsync(id);
             if (khoHang != null)
@@ -167,11 +166,16 @@ namespace BTL.Controllers
             return RedirectToAction(nameof(Index));
         }
 
-        private bool KhoHangExists(int id)
+        private bool KhoHangExists(string id)
         {
             return _context.KhoHang.Any(e => e.MaSP == id);
         }
-        [HttpPost]
+    
+     public IActionResult Upload()
+        {
+            return View();
+        }
+    [HttpPost]
         public async Task<IActionResult> Upload(IFormFile file)
         {
             if (file!=null)
@@ -197,9 +201,11 @@ namespace BTL.Controllers
                                 for(int i = 0; i < dt.Rows.Count; i++)
                                 {
                                     var kh = new KhoHang();
-                                    kh.TenSP = dt.Rows[i][0].ToString();
-                                    kh.GiaSP = dt.Rows[i][1].ToString();
-                                    kh.SoLuongSP = (int)dt.Rows[i][2];
+                                    kh.MaSP = dt.Rows[i][0].ToString();
+                                    kh.TenSP = dt.Rows[i][1].ToString();
+                                    kh.GiaSP = dt.Rows[i][2].ToString();
+                                    kh.SoLuongSP = dt.Rows[i][3].ToString();
+
 
                                     _context.Add(kh);
                                 }
@@ -220,9 +226,10 @@ namespace BTL.Controllers
             using(ExcelPackage excelPackage = new ExcelPackage())
             {
                 ExcelWorksheet excelWorksheet = excelPackage.Workbook.Worksheets.Add("Sheet 1");
-                excelWorksheet.Cells["A1"].Value = "TenSP";
-                excelWorksheet.Cells["B1"].Value = "GiaSP";
-                excelWorksheet.Cells["C1"].Value = "SoLuongSP";
+                excelWorksheet.Cells["A1"].Value = "MaSP";
+                excelWorksheet.Cells["B1"].Value = "TenSP";
+                excelWorksheet.Cells["C1"].Value = "GiaSP";
+                excelWorksheet.Cells["D1"].Value = "SoLuongSP";
                 var KhoHangList = _context.KhoHang.ToList();
                 excelWorksheet.Cells["A2"].LoadFromCollection(KhoHangList);
                 var stream = new MemoryStream(excelPackage.GetAsByteArray());
@@ -230,10 +237,11 @@ namespace BTL.Controllers
             }
         }
 
-        private bool KhoHangExists(string id)
+        private bool khoHangExists(string id)
         {
             return _context.KhoHang.Any(e => e.TenSP == id);
        
         }
     }
 }
+

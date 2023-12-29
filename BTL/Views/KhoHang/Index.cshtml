@@ -1,7 +1,6 @@
 @model IEnumerable<BTL.Models.KhoHang>
-    @using X.PagedList;
+@using X.PagedList;
 @using X.PagedList.Mvc.Core;
-
 @{
     ViewData["Title"] = "Index";
 }
@@ -19,6 +18,9 @@
     <thead>
         <tr>
             <th>
+                @Html.DisplayNameFor(model => model.MaSP)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.TenSP)
             </th>
             <th>
@@ -33,6 +35,9 @@
     <tbody>
 @foreach (var item in Model) {
         <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.MaSP)
+            </td>
             <td>
                 @Html.DisplayFor(modelItem => item.TenSP)
             </td>
